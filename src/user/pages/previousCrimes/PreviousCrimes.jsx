@@ -114,6 +114,8 @@ const PreviousCrimes = () => {
 
   return (
     <div>
+
+      
       <h1 align="center">RECENT CRIMES</h1>
       {/* <FormControl fullWidth sx={{ marginBottom: "20px" }}>
         <InputLabel id="demo-simple-select-label">Select Type : </InputLabel>
