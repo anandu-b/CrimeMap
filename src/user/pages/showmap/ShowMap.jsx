@@ -69,7 +69,7 @@ const ShowMap = () => {
 
   return (
     <div>
-    <LoadScript googleMapsApiKey="AIzaSyCngz44GJFCGiDUklks1gXtzeewb-VpoJ4">
+    <LoadScript >
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={13}>
         {/* Render crime markers */}
         {crimeLocations.map((crime, index) => (

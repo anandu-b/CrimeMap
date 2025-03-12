@@ -39,7 +39,7 @@ const ShowMapTable = () => {
     
     return (
         <div>
-            <LoadScript googleMapsApiKey="AIzaSyCngz44GJFCGiDUklks1gXtzeewb-VpoJ4">
+            <LoadScript >
                 <GoogleMap mapContainerStyle={containerStyle} center={crimeLocation || defaultCenter} zoom={crimeLocation ? 15 : 5}>
                     {/* Render crime location marker */}
                     {crimeLocation && <Marker position={crimeLocation} />}
