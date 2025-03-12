@@ -1,0 +1,75 @@
+/* Main container for the navbar */
+.main {
+    display: flex;
+    justify-content: space-between; /* Space out links and avatar */
+    align-items: center;
+    padding: 10px 20px; /* Add some padding */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    height:30px;
+  }
+  
+  .inside{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Container for each link */
+  .Links {
+    margin-left: 10px; /* Space between links */
+  }
+  
+  /* Link styling */
+  .Link {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default text color */
+    font-size: 1rem; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    padding: 8px 12px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for links */
+  .Link:hover {
+    color: #7e57c2; /* Purple text color on hover */
+    background-color: #f3e5f5; /* Light purple background on hover */
+  }
+  
+  /* Active link styling (optional) */
+  .Link:active {
+    color: #4a148c; /* Darker purple text color when active */
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+
+  .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 5px;
+
+
+
+  }
+
+  .boxitem {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default text color */
+    border-radius: 4px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+  }
+
+  .boxitem:hover{
+    color: #7e57c2; /* Purple text color on hover */
+    background-color: #f3e5f5; 
+  }
